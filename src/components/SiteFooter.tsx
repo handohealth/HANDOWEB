@@ -46,6 +46,7 @@ export default function SiteFooter() {
             <div className="footer-links">
               <a href="calendar.html">Hando Calendar</a>
               <a href="science.html">Hando Science</a>
+              <a href="https://trauma.hando.health">Hando Trauma</a>
             </div>
           </div>
           <div>

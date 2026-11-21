@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import Menu from "lucide-react/dist/esm/icons/menu.js";
 import X from "lucide-react/dist/esm/icons/x.js";
-export type SitePage = "home" | "calendar" | "science" | "team" | "contact";
+export type SitePage = "home" | "calendar" | "science" | "trauma" | "team" | "contact";
 const links: Array<{ page: SitePage; label: string; href: string }> = [
   { page: "home", label: "Hando", href: "index.html" },
   { page: "calendar", label: "Calendar", href: "calendar.html" },
   { page: "science", label: "Science", href: "science.html" },
+  { page: "trauma", label: "Trauma", href: "https://trauma.hando.health" },
   { page: "team", label: "Equipo", href: "equipo.html" },
   { page: "contact", label: "Contacto", href: "contacto.html" },
 ];
